@@ -1,2 +1,4 @@
 # docker-alpine-ssh
-Minimal docker image that can be used as an openssh client
+
+A minimal Docker image based on https://github.com/gliderlabs/docker-alpine but
+with openssh-client pre-installed.
