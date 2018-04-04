@@ -1,5 +1,5 @@
-FROM gliderlabs/alpine
+FROM alpine:3.7
 
-RUN apk-install openssh-client
+RUN apk update && apk add openssh-client bash
 
 CMD ["ssh"]
